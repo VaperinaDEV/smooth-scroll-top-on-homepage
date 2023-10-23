@@ -1,0 +1,10 @@
+enable_on_mobile:
+  type: bool
+  default: true
+enable_on_desktop:
+  type: bool
+  default: true
+enable_fade_animation_on_scroll:
+  type: bool
+  default: true
+  description: "Adds a fade animation to topic list when you clicks to the logo."

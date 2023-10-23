@@ -1,0 +1,22 @@
+// Smooth Scroll
+html.scroll-top {
+  scroll-behavior: smooth;
+  
+  @if $enable-fade-animation-on-scroll == "true" {
+    .topic-list {
+      animation: scrollTopFade 4s;
+    }
+    // Scroll Top Animation
+    @keyframes scrollTopFade {
+      0% {
+        opacity: 1;
+      }
+      15% {
+        opacity: 0.15;
+      }
+      100% {
+        opacity: 1;
+      }
+    }    
+  }
+}
